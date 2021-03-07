@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sign-in Form</title>
+    <link rel="stylesheet" href="sign-in-style.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+      <link rel="stylesheet" href="../fontawesome/all.min.css">
+      <link rel="stylesheet" href="../fontawesome/fontawesome.min.css">
+</head>
+
+<body>
+  <header class="fixed-top">
+      <h1 id="sign-in-brand" class="navbar-brand" >
+        Code<span>Comm</span>
+      </h1>
+  </header>
+  <div class="container">
+      <form name="myForm" class="d-block" onsubmit="return confirmForm()">
+        <h3 class="img-fluid" id="sign-in-title">
+          Sign-in
+        </h3>
+        <div>
+        <input name="username" type="text" placeholder="Username">
+        </div>
+        <div>
+        <input name="email" type="email" placeholder="Email">
+        </div>
+        <div>
+          <input type="submit" value="Confirm">
+        </div>
+        <div id="existingAcc">
+          Already have an account? <a href="#" id="login-link">Login</a>
+        </div>
+      </form>
+  </div>
+  
+  <script src="sign-in-function.js"></script>
+  <script src="../bootstrap/bootstrap.min.js"></script>
+</body>
+
+</html>

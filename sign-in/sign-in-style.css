@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+  box-sizing:border-box;
+}
+
+body {
+  height:100vh;
+  width:100%;
+  background-image:linear-gradient(#446EFF, #3354C6, #29429A, #1F306D);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+header {
+ background-color:#00085C;
+}
+
+#sign-in-brand {
+  font-family:'Montserrat', sans-serif;
+  color:#9AB1FF;
+  font-size:1.8rem;
+  text-decoration:none;
+  display:flex;
+  justify-content: center;
+  padding-top:10px;
+}
+
+#sign-in-brand span{
+  color:#BCCBFF;
+}
+
+#sign-in-brand::after{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight:900; 
+  content: "\f121";
+  margin-left:5px;
+  margin-top:5px;
+  font-size:20px;
+}
+
+@media (max-width:575.98px){
+  body {
+    height:100vh;
+    width:100%;
+  }
+}
+
+@media (min-width:576px) and (max-width:767.97px){
+  body {
+    height:100vh;
+    width:100%;
+  }
+}
+
+form {
+  text-align:center;
+  margin-top:50%;
+  margin-left:auto;
+  margin-right:auto;
+  height:275px;
+  width:auto;
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../web_images/man-in-a-city.png);
+  background-size:cover;
+  background-repeat:no-repeat;
+  border:#004341 solid 2px;
+  box-shadow:3px 3px 5px #003D51;
+}
+
+#login-link {
+  text-decoration:none;
+}
+
+#sign-in-title {
+  font-size:1.8rem;
+  padding:20px;
+  font-family:'Raleway', sans-serif;
+  color:#004341;
+}
+
+#sign-in-title::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f2f6";
+  margin-right: 5px;
+  font-size: 1.5rem;
+  color:#004341;
+}
+
+
+input[type=text] {
+  margin-top:20px;
+  padding:3px 5px;
+  border-style:none;
+  margin-left:10px;
+  margin-right:10px;
+  background:none;
+  border-bottom:1.2px solid #AC97FF;
+  color:#00566F;
+  font-size:1.0rem;
+  transition-duration:0.2s;
+  font-family:'Roboto', sans-serif;
+  font-weight:bolder;
+}
+
+input[type=email] {
+  margin-top:10px;
+  padding:5px;
+  border-style:none;
+  margin-left:10px;
+  margin-right:10px;
+  background:none;
+  border-bottom:1.2px solid #AC97FF;
+  color:#00566F;
+  font-size:1.0rem;
+  transition-duration:0.2s;
+  font-family:'Roboto', sans-serif;
+  font-weight:bolder;
+}
+
+input[type=text]::placeholder {
+  color:#00566F;
+}
+
+input[type=email]::placeholder {
+  color: #00566F;
+}
+
+input:focus {
+  transition-duration:0.3s;
+  outline:none;
+  box-shadow: -3px 3px 3px #BCABFF;
+  font-size:1.1rem;
+  border-bottom:1.5px solid #AC97FF;
+  font-family:'Roboto', sans-serif;
+  color:#00566F;
+  font-weight:bold;
+}
+
+#existingAcc {
+  margin-top:2.0rem;
+  font-size:1.0rem;
+  font-family:'Roboto', sans-serif;
+  color:#00628F;
+}
+
+#existingAcc a {
+  color: #00C6FF;
+}
+
+input[type=submit] {
+  margin:10px;
+  background:#D7DAFF;
+  border-radius:7px;
+  border-style:none;
+  color:#00566F;
+  font-family:'Roboto', sans-serif;
+  font-weight:bolder;
+}

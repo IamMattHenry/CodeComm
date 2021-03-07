@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>CodeComm - A community for coders</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="fontawesome/all.min.css">
+  <link rel="stylesheet" href="fontawesome/fontawesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm navbar-light sticky-top">
+    <div class="container-fluid"
+      <a id="navBrand" class="navbar-brand" href="#">Code<span>Comm</span></a>
+      <button id="btnToggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navCollapse">
+        <blockquote class="blockquote mt-3">Coding is for Everyone</blockquote>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a id="home" class="nav-link active" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a id="about" class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a id="contact" class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a id="sign-in" class="nav-link" href="#">Sign-in</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="whyTitle" class="m-3">
+          Why choose us
+        </h2>
+        <p id="whyParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <img class="img-fluid" src="web_images/programmer.png" alt="programmer">
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="commTitle" class="m-3">
+          A Community made for Everyone
+        </h2>
+        <p id="commParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <img class="img-fluid" src="web_images/laptop.jpg" alt="laptop">
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <h2 id="joinTitle" class="m-3">
+          Join our Community
+        </h2>
+      </div>
+    </div>
+    <div onclick="location.href='sign-in/sign-in.html';" class="sign-in-bg d-flex justify-content-center m-3 p-auto">
+       <a id="signin" href=sign-in/sign-in.html>
+         Sign-in
+       </a>
+    </div>
+  </div>
+  <!-- Project -->
+  <script src="main.js"></script>
+  <script src="bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

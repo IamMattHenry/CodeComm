@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  background-color:#D1FFED !important;
+  height: auto;
+  width:100%;
+}
+nav {
+  background-color:#008152;
+}
+
+#navBrand {
+  font-family:'Montserrat', sans-serif;
+  color:#35D79C;
+  font-size:1.8rem;
+}
+
+#navBrand span{
+  color:#88FFD4;
+}
+
+#navBrand::after{
+  font-family: "Font Awesome 5 Free"; 
+  font-weight:900; 
+  content: "\f121";
+  margin-left:5px;
+  font-size:20px;
+}
+
+.blockquote {
+  border-left: 2px #00A47A solid;
+  padding-left: 3.5px;
+  font-size: 0.9rem;
+  font-family:'Nunito', sans-serif;
+  color:#00EAAE;
+}
+
+#btnToggler {
+  background-color:#00783A;
+}
+
+#home {
+  color: #00FFA2 !important;
+  font-size: 1.2rem;
+  font-family:'Nunito', sans-serif;
+}
+
+#about {
+  color: #00FFA2 !important;
+  font-size: 1.2rem;
+  font-family:'Nunito', sans-serif;
+}
+
+#contact {
+  color: #00FFA2 !important;
+  font-size: 1.2rem;
+  font-family:'Nunito', sans-serif;
+}
+
+#sign-in {
+  color: #00FFA2 !important;
+  font-size: 1.2rem;
+  font-family: 'Nunito', sans-serif;
+}
+
+#home::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight:900; content: "\f015";
+    margin-right:5px;
+    font-size:18px;
+    color:#00C3B4;
+  }
+#about::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; content: "\f05a";
+    margin-right: 5px;
+    font-size:18px;
+    color:#00C3B4;
+  }
+#contact::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900; content: "\f2b9";
+    margin-right:5px;
+    font-size: 18px;
+    color:#00C3B4;
+  }
+  #sign-in::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f2f6";
+    margin-right: 5px;
+    font-size: 18px;
+    color: #00C3B4;
+  }
+
+#whyTitle {
+  font-family:'Poppins', sans-serif;
+  font-size:1.6rem;
+  font-weight: bold;
+  padding-left:5px;
+  color: #008965;
+  border-left: #008965 solid 2px;
+}
+
+#whyTitle::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f128";
+  margin-left: 3.5px;
+  font-size: 2.0rem;
+  color: #008965;
+}
+
+#whyParagraph {
+  font-family:'Poppins', sans-serif;
+  font-size:1.2rem;
+  padding:1.0rem;
+}
+
+#whyParagraph:hover {
+  transition-duration: 0.5s;
+  border:none;
+  background-color:#CAFFE942;
+  box-shadow: 0 0 0.8rem #38FFCC;
+  border-radius:10px;
+}
+
+#commTitle {
+  font-family:'Poppins', sans-serif;
+  font-size:1.6rem;
+  font-weight: bold;
+  padding-left:5px;
+  color: #007000;
+  border-left: #007000 solid 2px;
+}
+
+#commTitle::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0c0";
+  margin-left: 3.5px;
+  font-size: 2.0rem;
+  color: #007000;
+}
+
+#commParagraph {
+  font-family:'Poppins', sans-serif;
+  font-size:1.2rem;
+  padding:1.0rem;
+}
+
+#commParagraph:hover {
+  transition-duration: 0.5s;
+  border:none;
+  background-color:#CAFFE942;
+  box-shadow: 0 0 0.8rem #38FFCC;
+  border-radius:10px;
+}
+
+#joinTitle {
+  font-family:'Poppins', sans-serif;
+  font-size:1.6rem;
+  font-weight: bold;
+  padding-left:5px;
+  color:#00B775;
+  border-left: #00B775 solid 2px;
+}
+
+#joinTitle::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f12a";
+  margin-left: 3.5px;
+  font-size: 2.0rem;
+  color: #00B775;
+} 
+
+.sign-in-bg {
+  transition-duration:0.2s;
+  border: 2px solid #4DA070;
+  box-shadow:5px 5px 5px #4DA070;
+}
+
+.sign-in-bg:hover {
+  transition-duration: 0.2s;
+  box-shadow:-3px -3px 5px #4DA070;
+  background-color:#A0F3C5;
+}
+#signin {
+  font-family:'Poppins', sans-serif;
+  text-decoration:none;
+  font-size: 1.4rem;
+  color:#439A6D;
+  font-weight:bolder;
+}
