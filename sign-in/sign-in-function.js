@@ -12,4 +12,9 @@ function confirmForm()
     alert("The form is not complete, please try again.");
     return false;
   }
+  var z = x + y;
+    if (z = true)
+    {
+      alert("Check your email for the authentication code.");
+    }
 }
