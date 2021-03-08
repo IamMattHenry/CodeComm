@@ -9,7 +9,7 @@
 }
 
 body {
-  height:100vh;
+  height:auto;
   width:100%;
   background-image:linear-gradient(#446EFF, #3354C6, #29429A, #1F306D);
   background-size:cover;
@@ -44,44 +44,6 @@ header {
   font-size:20px;
 }
 
-@media (max-width:575.98px){
-  body {
-    height:100vh;
-    width:100%;
-    background-color:white;
-  }
-}
-/*
-@media (min-width:576px) and (max-width:767.97px){
-  body {
-    height:100vh;
-    width:100%;
-  }
-  form {
-    margin-top:10%;
-  }
-}
-
-@media (min-width:768px) and (max-width:991.98px){
-  body {
-    background-color:white;
-  }
-  
-  form {
-    margin-top:10%;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1199.98px){
-  body {
-    background-color:white;
-  }
-  
-  form {
-    margin-top:10%;
-  }
-}
-*/
 form {
   text-align:center;
   margin-top:25%;
@@ -185,4 +147,24 @@ input[type=submit] {
   color:#00566F;
   font-family:'Roboto', sans-serif;
   font-weight:bolder;
+}
+
+.aboutBox {
+  margin-top:10%;
+  padding:5%;
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../web_images/code-thinking.png);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  border:3.5px solid #000D97;
+}
+
+.about {
+  font-family:'Raleway', sans-serif;
+  color:#5D6AFF;
+  margin:5px;
+}
+
+#matt {
+  border-radius:50%;
+  border:2px #5D6AFF solid;
 }
