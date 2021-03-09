@@ -306,8 +306,7 @@ footer {
     font-size:1.6rem;
   }
   .aboutBox {
-  margin-top:15%;
-  padding:10%;
+  margin-top:5%;
   border:5px solid #000D97;
   box-shadow:-5px 5px 10px #000A7A;
   height:675px;
@@ -316,14 +315,17 @@ footer {
   background-repeat:no-repeat;
   border:3.5px solid #000D97;
 }
-  .about {
-    font-size:1.4rem;
-  }
   #aboutMe {
-    font-size:1.5rem;
+    font-size:1.3rem;
   }
   #aboutProject {
-    font-size:1.5rem;
+    font-size:1.3rem;
+  }
+  #aboutMeText {
+    font-size:1.0rem;
+  }
+  #aboutProjectText {
+    font-size:1.0rem;
   }
   #brandLogo {
     height:350px;
