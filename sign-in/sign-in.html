@@ -29,7 +29,7 @@
         <input name="email" type="email" placeholder="Email">
         </div>
         <div>
-          <input type="submit" value="Confirm">
+          <input id="submitInput" type="submit" value="Confirm">
         </div>
         <div id="existingAcc">
           Already have an account? <a href="#" id="login-link">Login</a>
@@ -37,7 +37,7 @@
       </form>
     <div class="aboutBox">
       <div class="row">
-        <div class="col-sm-6">
+        <div class="col-sm-8">
           <!--text-->
           <h1 class="about" id="aboutMe">
             About me
@@ -46,10 +46,10 @@
             I am Matt Henry Buenaventura. A grade 10 student. I love coding, and I am willing to learn being a full stack developer. I have knowledge with HTML, CSS and basic knowledge with C. I'm currently learning Javascript to enhance my skills in front-end.
           </p>
           </div>
-          <div class="col-sm-6">
             <!--Image-->
-            <img class="d-block ms-auto me-auto" id="matt" height="245px" width="75%" src="me.jpg" alt="Matt Henry">
-          </div>
+            <div class="col-sm-4">
+            <img class="d-block ms-auto me-auto" id="matt" height="auto" width="100%" src="../web_images/me-no-bg.png" alt="I am Matt Henry">
+            </div>
           <div class="row">
             <div class="col-sm-12">
           <h1 class="about" id="aboutProject">
@@ -59,6 +59,9 @@
             This project was made to make all coders communicate as a group. So that if we have something to share or to ask about, we can post here.
           </p>
             </div>
+          </div>
+          <div class="col-md-12">
+            <img id="brandLogo" height="275px" width="100%" src="../web_images/codecomm-logo.png" alt="CodeComm Logo">
           </div>
         </div>
   </div>

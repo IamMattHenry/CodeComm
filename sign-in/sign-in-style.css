@@ -117,7 +117,7 @@ input[type=email]::placeholder {
   color: #00566F;
 }
 
-input:focus {
+input[type=text]:focus {
   transition-duration:0.3s;
   outline:none;
   box-shadow: -3px 3px 3px #BCABFF;
@@ -126,6 +126,40 @@ input:focus {
   font-family:'Roboto', sans-serif;
   color:#00566F;
   font-weight:bold;
+}
+
+input[type=email]:focus {
+  transition-duration:0.3s;
+  outline:none;
+  box-shadow: -3px 3px 3px #BCABFF;
+  font-size:1.1rem;
+  border-bottom:1.5px solid #AC97FF;
+  font-family:'Roboto', sans-serif;
+  color:#00566F;
+  font-weight:bold;
+}
+
+
+#submitInput {
+  margin: 1.0rem;
+  padding:0.3rem;
+  background: #D7DAFF;
+  border-radius: 7px;
+  border-style: none;
+  color: #00566F;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+  box-shadow:-3px 3px 10px #C278FF;
+  font-size:0.8rem;
+  outline:none;
+  transition-duration:0.3s;
+}
+
+#submitInput:hover {
+  transition-duration:0.3s;
+  box-shadow:-5px 5px 10px #C278FF;
+  outline:none;
+  font-size:0.9rem;
 }
 
 #existingAcc {
@@ -139,32 +173,134 @@ input:focus {
   color: #00C6FF;
 }
 
-input[type=submit] {
-  margin:10px;
-  background:#D7DAFF;
-  border-radius:7px;
-  border-style:none;
-  color:#00566F;
-  font-family:'Roboto', sans-serif;
-  font-weight:bolder;
-}
-
 .aboutBox {
   margin-top:10%;
   padding:5%;
-  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../web_images/code-thinking.png);
+  background:#BAC8FF;
   background-size:100% 100%;
   background-repeat:no-repeat;
   border:3.5px solid #000D97;
 }
 
 .about {
+  transition-duration:0.5s;
   font-family:'Raleway', sans-serif;
   color:#5D6AFF;
   margin:5px;
+  font-size:1.1rem;
+}
+
+.about:hover {
+  transition-duration:0.5s;
+  text-shadow:-1px -1px 1px #51009F;
+}
+
+#aboutMe {
+  font-size:1.4rem;
+  font-weight:bolder;
+  margin:1.0rem;
+}
+
+#aboutProject {
+  font-size:1.4rem;
+  font-weight:bolder;
+  margin:1.0rem;
 }
 
 #matt {
+  transition-duration:0.5s;
   border-radius:50%;
   border:2px #5D6AFF solid;
+  box-shadow:3px 5px 5px #8956FF;
+}
+
+#matt:hover {
+  transition-duration:0.5s;
+  box-shadow:-3px -5px 5px #8956FF;
+  border-radius:45%;
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #sign-in-brand {
+    font-size: 3.0rem;
+  }
+  #sign-in-brand::after {
+    font-size:2.5rem;
+  }
+  form {
+    height:500px;
+    text-align:center;
+    margin-top:25%;
+    margin-left:auto;
+    margin-right:auto;
+    width:auto;
+    border:#004341 solid 4.5px;
+    box-shadow:6px 6px 7px #003D51;
+  }
+  #sign-in-title {
+    font-size:2.4rem;
+  }
+  #sign-in-title::after {
+    font-size:1.8rem;
+  }
+  input[type=text] {
+    font-size:1.75rem;
+    width:75%;
+    border-bottom:3.5px #AC97FF solid;
+  }
+  input[type=email] {
+    font-size:1.75rem;
+    width:75%;
+    border-bottom:3.5px #AC97FF solid;
+  }
+  #submitInput {
+    font-size:1.4rem;
+    margin-top:3.0rem;
+  }
+  #submitInput:hover {
+    font-size:1.6rem;
+    margin-top:2.5rem;
+  }
+  #existingAcc {
+    margin-top:8.0rem;
+    font-size:1.6rem;
+  }
+  .aboutBox {
+  margin-top:15%;
+  padding:10%;
+  border:5px solid #000D97;
+  box-shadow:-5px 5px 10px #000A7A;
+  height:675px;
+  background:linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../web_images/code-thinking.png);
+  background-size:100% 100%;
+  background-repeat:no-repeat;
+  border:3.5px solid #000D97;
+}
+  .about {
+    font-size:1.3rem;
+  }
+  #aboutMe {
+    font-size:1.6rem;
+  }
+  #aboutMe {
+    font-size:1.6rem;
+  }
+  #brandLogo {
+    height:200px;
+    width:40%;
+    display:flex;
+    margin-left:30%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
 }
