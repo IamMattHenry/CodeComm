@@ -211,6 +211,18 @@ nav {
   nav {
     width:100%;
   }
+  #home {
+    font-size:0.8rem !important;
+  }
+  #about {
+    font-size:0.8rem !important;
+  }
+  #contact {
+    font-size:0.8rem !important;
+  }
+  #signin {
+    font-size:0.8rem !important;
+  }
   .paragraphs {
     font-size:1.7rem !important;
   }
@@ -222,7 +234,7 @@ nav {
   }
   #signin {
     font-size:2.0rem;
-  }
+  } 
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

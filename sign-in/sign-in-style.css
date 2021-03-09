@@ -4,17 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
   box-sizing:border-box;
 }
 
 body {
-  height:auto;
+  height:100vh;
   width:100%;
-  background-image:linear-gradient(#446EFF, #3354C6, #29429A, #1F306D);
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+  background-color:#000D9D !important;
 }
 
 header {
@@ -163,7 +162,7 @@ input[type=email]:focus {
 }
 
 #existingAcc {
-  margin-top:1.0rem;
+  margin-top:0.5rem;
   font-size:1.0rem;
   font-family:'Roboto', sans-serif;
   color:#00628F;
@@ -220,9 +219,38 @@ input[type=email]:focus {
   border-radius:45%;
 }
 
+footer {
+  margin-top:2.0rem;
+  padding:0.5rem;
+  background-color:#98A1FF;
+  color:#DEE1FF;
+}
+
+#copyright {
+  font-family:'Lato', sans-serif;
+  font-size:0.9rem;
+  color:#DEE1FF;
+}
+
+.fa-facebook {
+  transition-duration:0.5s;
+  color:#4958FF;
+  margin:0.3rem;
+  font-size:1.4rem;
+}
+
+.fa-facebook:hover {
+  transition-duration:1s;
+  font-size:2.5rem;
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  body {
+    height:100%;
+    width:100%;
+  }
+  
   #sign-in-brand {
     font-size: 3.0rem;
   }
@@ -255,6 +283,16 @@ input[type=email]:focus {
     width:75%;
     border-bottom:3.5px #AC97FF solid;
   }
+  input[type=text]:focus {
+    font-size:2.0rem;
+    width:85%;
+    border-bottom:3.5px #AC97FF solid;
+  }
+  input[type=email]:focus {
+    font-size:2.0rem;
+    width:85%;
+    border-bottom:3.5px #AC97FF solid;
+  }
   #submitInput {
     font-size:1.4rem;
     margin-top:3.0rem;
@@ -264,7 +302,7 @@ input[type=email]:focus {
     margin-top:2.5rem;
   }
   #existingAcc {
-    margin-top:8.0rem;
+    margin-top:7.0rem;
     font-size:1.6rem;
   }
   .aboutBox {
@@ -279,19 +317,34 @@ input[type=email]:focus {
   border:3.5px solid #000D97;
 }
   .about {
-    font-size:1.3rem;
+    font-size:1.4rem;
   }
   #aboutMe {
-    font-size:1.6rem;
+    font-size:1.8rem;
   }
-  #aboutMe {
-    font-size:1.6rem;
+  #aboutProject {
+    font-size:1.8rem;
   }
   #brandLogo {
-    height:200px;
-    width:40%;
+    height:350px;
+    width:70%;
     display:flex;
-    margin-left:30%;
+    margin-left:15%;
+    margin-top:20%;
+  }
+  footer {
+    margin-top:30.0rem;
+    height:100%;
+  }
+  #copyright {
+    font-size:1.5rem;
+    margin:0.2rem;
+  }
+  .fa-facebook {
+    font-size:3.5rem !important;
+  }
+  .fa-facebook:hover {
+    font-size:3.8rem !important;
   }
 }
 
