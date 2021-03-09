@@ -316,23 +316,22 @@ footer {
   border:3.5px solid #000D97;
 }
   #aboutMe {
-    font-size:1.3rem;
+    font-size:1.4rem;
   }
   #aboutProject {
-    font-size:1.3rem;
+    font-size:1.4rem;
   }
   #aboutMeText {
-    font-size:1.0rem;
+    font-size:1.2rem;
   }
   #aboutProjectText {
-    font-size:1.0rem;
+    font-size:1.2rem;
   }
   #brandLogo {
-    height:350px;
-    width:70%;
-    display:flex;
-    margin-left:15%;
-    margin-top:20%;
+    height:300px;
+    width:50%;
+    margin-top:50%;
+    margin-left:25%;
   }
   footer {
     margin-top:30.0rem;
